@@ -437,7 +437,9 @@ there.
   background:url('../images/header.jpg') top center no-repeat;
   background-size: cover;
   min-height: 680px;
-  width: 100%; }
+  width: 100%; 
+  padding-bottom: 2rem;
+}
 
 #header .logo {
   margin-top: 1em; }
@@ -461,9 +463,15 @@ there.
   border: none; }
 
 #header .headertext {
-  margin-top: 10em; 
+  margin-top: 4em; 
   -webkit-animation-delay: 0.5s;
   animation-delay: 0.5s;
+}
+
+@media (min-width: 550px) {
+  #header .headertext {
+    margin-top: 10em; 
+  }
 }
 
 #header h1 {
@@ -523,6 +531,7 @@ there.
   box-shadow: 0 1px 2px rgba(0,0,0,0.2);
   height: 400px;
   margin-top: 2rem;
+  margin-bottom: 2rem;
   position: relative;
 }
 
@@ -623,6 +632,7 @@ there.
   border-radius: 50%;
   float: left;
   margin-right: 1.5rem;
+  margin-bottom: 5rem;
   width: 65px;
   height: 65px;
 }
